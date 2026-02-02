@@ -80,6 +80,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'ciroh_hub_notice',
+        content:
+          '🧭 CIROH Portal is moving to a new home. <a target="_blank" rel="noopener noreferrer" href="https://docs.ciroh.org/ciroh-hub/">Learn more about the transition to CIROH Hub</a>.',
+        backgroundColor: '#0081d2ff',
+        textColor: '#fff',
+        isCloseable: false,
+      },
       image: 'img/ciroh_small.png',
       navbar: {
         title: 'CIROH',
